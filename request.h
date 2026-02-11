@@ -5,6 +5,19 @@
 #define MAX_PATH_LEN 256
 #define MAX_VERSION_LEN 16
 
+// HTTP methods
+#define GET_METHOD "GET";
+#define POST_METHOD "POST";
+#define DELETE_METHOD "DELETE";
+#define PUT_METHOD "PUT";
+#define HEAD_METHOD "HEAD";
+#define OPTIONS_METHOD "OPTIONS";
+#define PATCH_METHOD "PATCH";
+#define CONNECT_METHOD "CONNECT";
+#define TRACE_METHOD "TRACE";
+
+
+
 typedef struct
 {
     char method[MAX_METHOD_LEN];
