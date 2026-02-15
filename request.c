@@ -5,6 +5,7 @@
 #include <string.h>
 #include "request.h"
 
+
 HttpMethod parse_method(const char *method_str)
 {
     if (strcmp(method_str, "GET") == 0)
